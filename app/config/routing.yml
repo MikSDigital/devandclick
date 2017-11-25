@@ -1,7 +1,8 @@
 ecommerce:
-    resource: "@EcommerceBundle/Controller/"
-    type:     annotation
-    prefix:   /
+    #resource: "@EcommerceBundle/Controller/"
+    #type: annotation
+    path: /
+    defaults: { _controller: EcommerceBundle:Default:index }
 
 app:
     resource: '@AppBundle/Controller/'
